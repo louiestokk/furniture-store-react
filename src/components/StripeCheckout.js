@@ -79,10 +79,11 @@ const CheckoutForm = () => {
       setError(null);
       setProccessing(false);
       setSucceeded(true);
+
       setTimeout(() => {
         clearCart();
         history.push("/");
-      }, 10000);
+      }, 5000);
     }
   };
   // end of stripe stuff
